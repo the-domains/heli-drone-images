@@ -1,0 +1,14 @@
+layout_spectrum: 0.5510638
+typography_spectrum: 0.5787234
+color:
+  lightness: 0.2191489
+  brandStrength: 0.4978724
+  saturation: 0.822777
+  rhythmicContrast: 0.153651
+  brandColors:
+    - '#000001'
+    - '#FFFDFF'
+    - '#918F92'
+    - '#5D5A5E'
+    - '#C5BC01'
+name: Heli Drone Images
