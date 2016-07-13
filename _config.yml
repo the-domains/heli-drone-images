@@ -1,28 +1,40 @@
-name: helidroneimages
 favicon: null
-layout_spectrum: 0.5510638
-typography_spectrum: 0.5787234
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: helidroneimages
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.822777
+  brandStrength: 0.4978724
+  rhythmicContrast: 0.153651
   brandColors:
     - '#000001'
     - '#FFFDFF'
     - '#918F92'
     - '#5D5A5E'
     - '#C5BC01'
-  brandStrength: 0.4978724
   lightness: 0.2191489
-  saturation: 0.822777
-  rhythmicContrast: 0.153651
-purpose: []
+typography_spectrum: 0.5787234
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
